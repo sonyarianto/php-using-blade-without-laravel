@@ -1,9 +1,15 @@
 # php-using-blade-without-laravel
 Sample of using Blade template system on PHP without using Laravel.
 
+## Requirements
+- PHP 8.2.x
+- Composer
+
 ## How to run?
 
-Just use PHP built-in web server. Run this on this project directory.
+Run `composer install` on the project directory.
+
+Then we just use PHP built-in web server. Run this on this project directory.
 
 ```
 php -S localhost:3000 -t public
